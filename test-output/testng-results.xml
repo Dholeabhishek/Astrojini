@@ -1,17 +1,657 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="4" skipped="0">
+<testng-results ignored="0" total="13" passed="9" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-11T08:59:36 IST" name="Default suite" finished-at="2025-07-11T09:00:13 IST" duration-ms="36922">
+  <suite started-at="2025-08-01T15:56:14 IST" name="Suite" finished-at="2025-08-01T15:57:58 IST" duration-ms="103801">
     <groups>
     </groups>
-    <test started-at="2025-07-11T08:59:36 IST" name="Default test" finished-at="2025-07-11T09:00:13 IST" duration-ms="36922">
+    <test started-at="2025-08-01T15:56:14 IST" name="LoginTest" finished-at="2025-08-01T15:56:41 IST" duration-ms="27152">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.LoginTest@24569dba]" started-at="2025-08-01T15:56:14 IST" name="setup" finished-at="2025-08-01T15:56:24 IST" duration-ms="10502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginTest.login(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@24569dba]" started-at="2025-08-01T15:56:24 IST" name="login" data-provider="loginData" finished-at="2025-08-01T15:56:32 IST" duration-ms="7398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kwikclean0225@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suyash@0225]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Customer login successfully !!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@24569dba]" started-at="2025-08-01T15:56:32 IST" name="tearDown" finished-at="2025-08-01T15:56:32 IST" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@24569dba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.LoginTest@24569dba]" started-at="2025-08-01T15:56:32 IST" name="setup" finished-at="2025-08-01T15:56:35 IST" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.LoginTest.login(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@24569dba]" started-at="2025-08-01T15:56:35 IST" name="login" data-provider="loginData" finished-at="2025-08-01T15:56:41 IST" duration-ms="5839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wronguser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid Credentials !!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.LoginTest@24569dba]" started-at="2025-08-01T15:56:41 IST" name="tearDown" finished-at="2025-08-01T15:56:41 IST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@24569dba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2025-08-01T15:56:41 IST" name="RegistrationTest" finished-at="2025-08-01T15:57:25 IST" duration-ms="44362">
+      <class name="testCases.RegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:41 IST" name="setup" finished-at="2025-08-01T15:56:43 IST" duration-ms="2209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:43 IST" name="registrationInvalidData" data-provider="invalidregistrationData" finished-at="2025-08-01T15:56:47 IST" duration-ms="3621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/08/1998]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:45PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Femail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9335441516]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[su@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:47 IST" name="tearDown" finished-at="2025-08-01T15:56:47 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:47 IST" name="setup" finished-at="2025-08-01T15:56:49 IST" duration-ms="1853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:49 IST" name="registrationInvalidData" data-provider="invalidregistrationData" finished-at="2025-08-01T15:56:53 IST" duration-ms="3999" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/08/1998]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:45PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9335441516]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[suyas@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:53 IST" name="tearDown" finished-at="2025-08-01T15:56:53 IST" duration-ms="404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:53 IST" name="setup" finished-at="2025-08-01T15:56:55 IST" duration-ms="1989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:55 IST" name="registrationInvalidData" data-provider="invalidregistrationData" finished-at="2025-08-01T15:56:59 IST" duration-ms="3526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/08/1998]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:45PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Femail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9335441516]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:59 IST" name="tearDown" finished-at="2025-08-01T15:56:59 IST" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:56:59 IST" name="setup" finished-at="2025-08-01T15:57:01 IST" duration-ms="2115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:01 IST" name="registrationInvalidData" data-provider="invalidregistrationData" finished-at="2025-08-01T15:57:05 IST" duration-ms="4068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/08/1998]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Femail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9335441516]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[suyash@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:05 IST" name="tearDown" finished-at="2025-08-01T15:57:06 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:06 IST" name="setup" finished-at="2025-08-01T15:57:07 IST" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:07 IST" name="registrationValidData" data-provider="validregistrationData" finished-at="2025-08-01T15:57:12 IST" duration-ms="4617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suyash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25/05/2025]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:45AM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9696856069]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[suyashsivastava@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:12 IST" name="tearDown" finished-at="2025-08-01T15:57:12 IST" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationValidData status=SUCCESS method=RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:12 IST" name="setup" finished-at="2025-08-01T15:57:15 IST" duration-ms="2114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:15 IST" name="registrationValidData" data-provider="validregistrationData" finished-at="2025-08-01T15:57:19 IST" duration-ms="4761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/08/1998]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:45PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Femail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9335441516]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[suyshsristava@gmai.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:19 IST" name="tearDown" finished-at="2025-08-01T15:57:20 IST" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationValidData status=SUCCESS method=RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:20 IST" name="setup" finished-at="2025-08-01T15:57:21 IST" duration-ms="1757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:21 IST" name="registrationValidData" data-provider="validregistrationData" finished-at="2025-08-01T15:57:25 IST" duration-ms="3691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/08/1998]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10:45PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Femail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9335441516]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sashsrivastava@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Varanasi]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[221001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@6f204a1a]" started-at="2025-08-01T15:57:25 IST" name="tearDown" finished-at="2025-08-01T15:57:25 IST" duration-ms="337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registrationValidData status=SUCCESS method=RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RegistrationTest@6f204a1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegistrationTest -->
+    </test> <!-- RegistrationTest -->
+    <test started-at="2025-08-01T15:57:25 IST" name="EditProfileTest" finished-at="2025-08-01T15:57:58 IST" duration-ms="32152">
       <class name="testCases.EditProfileTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:36 IST" name="setupReport" finished-at="2025-07-11T08:59:36 IST" duration-ms="456" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:56:13 IST" name="setupReport" finished-at="2025-08-01T15:56:14 IST" duration-ms="726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:36 IST" name="setup" finished-at="2025-07-11T08:59:39 IST" duration-ms="2652" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:25 IST" name="setup" finished-at="2025-08-01T15:57:28 IST" duration-ms="2377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +662,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:39 IST" name="gotoLoginPage" finished-at="2025-07-11T08:59:47 IST" duration-ms="8078" status="PASS">
+        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:28 IST" name="gotoLoginPage" finished-at="2025-08-01T15:57:32 IST" duration-ms="4282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoLoginPage -->
-        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:47 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-07-11T08:59:48 IST" duration-ms="334" status="FAIL">
+        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:32 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-08-01T15:57:33 IST" duration-ms="766" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -64,59 +704,53 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[invalid argument: File not found : D:\\pic1.jpg
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e909530043c6498f78bb7f7b9e3f016, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50301/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e909530043c6498f78bb7f7b9e3f016]]>
+Command: [e5b4f5d54c60db6097f6c25522f39829, sendKeysToElement {id=f.BF74DDB713C3A1B925F116CDDFC45F45.d.9040612D9C30FA9B55F4D9B4E8375BAC.e.91, value=[Ljava.lang.CharSequence;@4fb56bea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65077/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e5b4f5d54c60db6097f6c25522f39829)] -> id: photo]
+Session ID: e5b4f5d54c60db6097f6c25522f39829]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\\pic1.jpg
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0e909530043c6498f78bb7f7b9e3f016, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50301/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0e909530043c6498f78bb7f7b9e3f016
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+Command: [e5b4f5d54c60db6097f6c25522f39829, sendKeysToElement {id=f.BF74DDB713C3A1B925F116CDDFC45F45.d.9040612D9C30FA9B55F4D9B4E8375BAC.e.91, value=[Ljava.lang.CharSequence;@4fb56bea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65077/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e5b4f5d54c60db6097f6c25522f39829)] -> id: photo]
+Session ID: e5b4f5d54c60db6097f6c25522f39829
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
-at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:40)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
 at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
 at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -125,7 +759,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -143,22 +777,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpEditProfile -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:48 IST" name="tearDown" finished-at="2025-07-11T08:59:48 IST" duration-ms="682" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:33 IST" name="tearDown" finished-at="2025-08-01T15:57:33 IST" duration-ms="628" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d] output={null}]]]>
+                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:48 IST" name="setup" finished-at="2025-07-11T08:59:50 IST" duration-ms="1701" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:33 IST" name="setup" finished-at="2025-08-01T15:57:35 IST" duration-ms="1866" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -169,11 +803,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:50 IST" name="gotoLoginPage" finished-at="2025-07-11T08:59:56 IST" duration-ms="5827" status="PASS">
+        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:35 IST" name="gotoLoginPage" finished-at="2025-08-01T15:57:40 IST" duration-ms="4697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoLoginPage -->
-        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:56 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-07-11T08:59:56 IST" duration-ms="230" status="FAIL">
+        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:40 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-08-01T15:57:41 IST" duration-ms="765" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -211,59 +845,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[invalid argument: 'text' is empty
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b0ec57e01dd846df72f20a280a28e2b5, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50339/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b0ec57e01dd846df72f20a280a28e2b5]]>
+Command: [67c5e0d0b42dd899ee451342d7d63ffe, sendKeysToElement {id=f.CEC3398B6F09189B786A7FD05C4F5FAE.d.BC814F305198209020DE2274A1DA7F9B.e.98, value=[Ljava.lang.CharSequence;@162c1dfb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65118/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (67c5e0d0b42dd899ee451342d7d63ffe)] -> id: photo]
+Session ID: 67c5e0d0b42dd899ee451342d7d63ffe]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: 'text' is empty
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b0ec57e01dd846df72f20a280a28e2b5, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50339}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50339/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b0ec57e01dd846df72f20a280a28e2b5
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+Command: [67c5e0d0b42dd899ee451342d7d63ffe, sendKeysToElement {id=f.CEC3398B6F09189B786A7FD05C4F5FAE.d.BC814F305198209020DE2274A1DA7F9B.e.98, value=[Ljava.lang.CharSequence;@162c1dfb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65118}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65118/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (67c5e0d0b42dd899ee451342d7d63ffe)] -> id: photo]
+Session ID: 67c5e0d0b42dd899ee451342d7d63ffe
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
-at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:40)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
 at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
 at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -272,7 +900,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -290,22 +918,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpEditProfile -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:56 IST" name="tearDown" finished-at="2025-07-11T08:59:57 IST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:41 IST" name="tearDown" finished-at="2025-08-01T15:57:41 IST" duration-ms="491" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d] output={null}]]]>
+                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:57 IST" name="setup" finished-at="2025-07-11T08:59:58 IST" duration-ms="1606" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:41 IST" name="setup" finished-at="2025-08-01T15:57:43 IST" duration-ms="1725" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -316,11 +944,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T08:59:58 IST" name="gotoLoginPage" finished-at="2025-07-11T09:00:04 IST" duration-ms="6045" status="PASS">
+        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:43 IST" name="gotoLoginPage" finished-at="2025-08-01T15:57:48 IST" duration-ms="5259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoLoginPage -->
-        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:04 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-07-11T09:00:05 IST" duration-ms="216" status="FAIL">
+        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:48 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-08-01T15:57:49 IST" duration-ms="816" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -358,59 +986,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[invalid argument: 'text' is empty
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cef9f33739db7b7f3d226cfe3612781b, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50374/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cef9f33739db7b7f3d226cfe3612781b]]>
+Command: [e46d3bc7af0b8fd2a783a6da3de8cb08, sendKeysToElement {id=f.9F6BB36D1FB5801855F6BDEA7C3E0647.d.441E220B1ED35CB50C08A54EC9E48A5B.e.109, value=[Ljava.lang.CharSequence;@171dc7c3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65160/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e46d3bc7af0b8fd2a783a6da3de8cb08)] -> id: photo]
+Session ID: e46d3bc7af0b8fd2a783a6da3de8cb08]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: 'text' is empty
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cef9f33739db7b7f3d226cfe3612781b, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50374}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50374/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: cef9f33739db7b7f3d226cfe3612781b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+Command: [e46d3bc7af0b8fd2a783a6da3de8cb08, sendKeysToElement {id=f.9F6BB36D1FB5801855F6BDEA7C3E0647.d.441E220B1ED35CB50C08A54EC9E48A5B.e.109, value=[Ljava.lang.CharSequence;@171dc7c3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65160/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e46d3bc7af0b8fd2a783a6da3de8cb08)] -> id: photo]
+Session ID: e46d3bc7af0b8fd2a783a6da3de8cb08
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
-at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:40)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
 at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
 at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -419,7 +1041,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -437,22 +1059,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpEditProfile -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:05 IST" name="tearDown" finished-at="2025-07-11T09:00:05 IST" duration-ms="652" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:49 IST" name="tearDown" finished-at="2025-08-01T15:57:50 IST" duration-ms="474" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d] output={null}]]]>
+                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:05 IST" name="setup" finished-at="2025-07-11T09:00:07 IST" duration-ms="1612" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:50 IST" name="setup" finished-at="2025-08-01T15:57:51 IST" duration-ms="1765" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -463,11 +1085,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:07 IST" name="gotoLoginPage" finished-at="2025-07-11T09:00:12 IST" duration-ms="5619" status="PASS">
+        <test-method is-config="true" signature="gotoLoginPage()[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:51 IST" name="gotoLoginPage" finished-at="2025-08-01T15:57:56 IST" duration-ms="5040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoLoginPage -->
-        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:12 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-07-11T09:00:13 IST" duration-ms="219" status="FAIL">
+        <test-method signature="setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:56 IST" name="setUpEditProfile" data-provider="editData" finished-at="2025-08-01T15:57:57 IST" duration-ms="674" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -505,59 +1127,53 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[invalid argument: File not found : D:\\pic2.jpg
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8292973230cd45c17b5f195b1b880f0b, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50411/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8292973230cd45c17b5f195b1b880f0b]]>
+Command: [bee54c5f2076b0188fc8237e1db376c0, sendKeysToElement {id=f.310B6DFAC9D52BCDC3BDD61C1F02CD52.d.ED0CB5EEE01E0622D4B7EB251EA4B2A9.e.104, value=[Ljava.lang.CharSequence;@31f77791}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65202}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bee54c5f2076b0188fc8237e1db376c0)] -> id: photo]
+Session ID: bee54c5f2076b0188fc8237e1db376c0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#photo"}
-  (Session info: chrome=138.0.7204.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.33.0', revision: '2c6aaad03a'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\\pic2.jpg
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8292973230cd45c17b5f195b1b880f0b, findElement {using=id, value=photo}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\Suyash\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50411/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8292973230cd45c17b5f195b1b880f0b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+Command: [bee54c5f2076b0188fc8237e1db376c0, sendKeysToElement {id=f.310B6DFAC9D52BCDC3BDD61C1F02CD52.d.ED0CB5EEE01E0622D4B7EB251EA4B2A9.e.104, value=[Ljava.lang.CharSequence;@31f77791}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65202}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65202/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bee54c5f2076b0188fc8237e1db376c0)] -> id: photo]
+Session ID: bee54c5f2076b0188fc8237e1db376c0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:473)
-at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:40)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
 at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
 at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -566,7 +1182,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -584,26 +1200,26 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpEditProfile -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:13 IST" name="tearDown" finished-at="2025-07-11T09:00:13 IST" duration-ms="574" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:57 IST" name="tearDown" finished-at="2025-08-01T15:57:58 IST" duration-ms="497" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@4c309d4d] output={null}]]]>
+                <![CDATA[[TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.EditProfileTest@38467116] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:testCases.EditProfileTest@4c309d4d]" started-at="2025-07-11T09:00:13 IST" name="tearDownReport" finished-at="2025-07-11T09:00:14 IST" duration-ms="645" status="PASS">
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:testCases.EditProfileTest@38467116]" started-at="2025-08-01T15:57:58 IST" name="tearDownReport" finished-at="2025-08-01T15:57:58 IST" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
       </class> <!-- testCases.EditProfileTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- EditProfileTest -->
+  </suite> <!-- Suite -->
 </testng-results>

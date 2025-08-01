@@ -19,6 +19,10 @@ public class HoroscopesPages {
 		PageFactory.initElements(driver, this);
 	}
 	
+	public HoroscopesPages(ThreadLocal<WebDriver> driver2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@FindBy(className = "dropdown-content") WebElement dropdownContent;
 	@FindBy(className = "dropdown") WebElement dropdown;
 	

@@ -47,4 +47,10 @@ public class WaitUtils {
             Thread.sleep(seconds * 1000L);
         } catch (InterruptedException ignored) {}
     }
+
+
+	public static WebElement waitForVisibility(ThreadLocal<WebDriver> driver, By xpath) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

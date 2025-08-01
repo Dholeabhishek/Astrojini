@@ -13,6 +13,9 @@ public class RegistrationPage {
 		this.driver = driver;
 		PageFactory.initElements( driver, this);
 	}
+	public RegistrationPage(ThreadLocal<WebDriver> driver2) {
+		// TODO Auto-generated constructor stub
+	}
 	// i have find all element locator
 	//@FindBy(className= "sign_up") WebElement signup;
 	@FindBy(name="name")WebElement username;

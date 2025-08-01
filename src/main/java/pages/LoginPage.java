@@ -13,10 +13,14 @@ public class LoginPage extends Baseclass {
 	private By loginButton = By.xpath("//button[text()='Login']");
 	private By errorMessage = By.className("swal2-title");
 	
-	public LoginPage(WebDriver driver) {
-		this.driver = driver;
+	public LoginPage(WebDriver webDriver) {
+		this.driver = (WebDriver) webDriver;
 	}
 	
+	public LoginPage(ThreadLocal<WebDriver> driver2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	private void entername(String user) {
 		driver.findElement(username).sendKeys(user);
 	}

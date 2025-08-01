@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="LoginTest(failed)">
+  <test thread-count="5" name="EditProfileTest(failed)">
     <classes>
-      <class name="Suyash.Astrojini.ui.LoginTest">
+      <class name="testCases.EditProfileTest">
         <methods>
-          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="gotoLoginPage"/>
+          <include name="tearDownReport"/>
+          <include name="setup"/>
+          <include name="setUpEditProfile" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
           <include name="setupReport"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- Suyash.Astrojini.ui.LoginTest -->
+      </class> <!-- testCases.EditProfileTest -->
     </classes>
-  </test> <!-- LoginTest(failed) -->
+  </test> <!-- EditProfileTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

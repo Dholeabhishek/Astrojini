@@ -9,7 +9,7 @@ import pages.RegistrationPage;
 public class RegistrationTest extends Baseclass {
 	
 	public void goToRegisterPage() {
-	    driver.get(navigateTo("registerURL")); 
+	    navigateTo("registerURL"); 
 	}
    
 	@Test(dataProvider="validregistrationData")

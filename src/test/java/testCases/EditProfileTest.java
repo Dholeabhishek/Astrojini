@@ -56,4 +56,3 @@ public class EditProfileTest extends Baseclass {
 	
 	
 	
-

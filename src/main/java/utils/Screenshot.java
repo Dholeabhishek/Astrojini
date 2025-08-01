@@ -20,7 +20,7 @@ public class Screenshot {
 	        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
 	        String filename = testName + "_" + timestamp + ".png";
-	        File destination = new File("C:\\Users\\Suyash\\eclipse-workspace\\Astrojini\\src\\test\\java\\screenshots\\"+ filename);
+	        File destination = new File("C:\\Users\\ADMIN\\git\\Astrojini\\src\\test\\java\\screenshots"+ filename);
 			FileUtils.copyFile(source, destination);
 			return destination.getAbsolutePath();
 	    }
