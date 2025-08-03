@@ -85,7 +85,7 @@ CI runs will be triggered on every push to `main` branch via GitHub Actions with
 ### ✅ Locally
 
 ```bash
-git clone https://github.com/Suyash0225/Astrojini.git
+git clone https://github.com/Dholeabhishek/Astrojini.git
 cd Astrojini
 mvn clean test
 ```
@@ -99,10 +99,10 @@ mvn clean test
 
 ## 👨‍💻 Author
 
-**Suyash Srivastava**
+**Abhishek Dhole**
 QA Automation Engineer
-📧 Gmail =  suyashsrivastava49@gmail.com
-🔗 GitHub = https://github.com/Suyash0225
+📧 Gmail =  Dholeabhishek9@gmail.com
+
 
 ---
 
