@@ -1,6 +1,6 @@
 # 💻 ASTROJINI UI & API Test Automation
 
-Automated end-to-end test suite for the **Astrojini.com** astrology web platform by **Suyash Srivastava**.
+Automated end-to-end test suite for the **Astrojini.com** astrology web platform by **Abhishek Dhole**.
 This framework validates user flows such as **Login**, **Logout**, **Edit Profile**, and **Rashifal Check**, using Selenium, TestNG, POM, RestAssured.
 
 The framework includes **HTML reporting**, **screenshot capturing**, and planned **CI/CD integration with GitHub Actions**.
