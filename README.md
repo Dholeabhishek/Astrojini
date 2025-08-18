@@ -1,6 +1,6 @@
 # 💻 ASTROJINI UI & API Test Automation
 
-Automated end-to-end test suite for the **Astrojini.com** astrology web platform by **Suyash Srivastava**.
+Automated end-to-end test suite for the **Astrojini.com** astrology web platform by **Abhishek Dhole**.
 This framework validates user flows such as **Login**, **Logout**, **Edit Profile**, and **Rashifal Check**, using Selenium, TestNG, POM, RestAssured.
 
 The framework includes **HTML reporting**, **screenshot capturing**, and planned **CI/CD integration with GitHub Actions**.
@@ -9,17 +9,18 @@ The framework includes **HTML reporting**, **screenshot capturing**, and planned
 
 ## 🧰 Tech Stack
 
-| Tool / Library     | Purpose                       |
-| ------------------ | ----------------------------- |
-| Java               | Programming Language          |
-| Selenium WebDriver | Browser automation            |
-| RestAssured        | API Testing                   |
-| TestNG             | Test runner & assertions      |
-| Maven              | Dependency + Build Management |
-| WebDriverManager   | Auto driver setup             |
-| GitHub Actions     | CI/CD integration             |
-| Page Object Model  | Clean code structure          |
-| ExtentReports      | HTML Reporting                |
+| Tool / Library | Purpose |
+| -------------- | -------- |
+| ![Java](https://img.shields.io/badge/Java-17%2B-orange?logo=java&logoColor=white) | Programming Language |
+| ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green?logo=selenium&logoColor=white) | Browser Automation |
+| ![RestAssured](https://img.shields.io/badge/RestAssured-API%20Testing-blue) | API Testing |
+| ![TestNG](https://img.shields.io/badge/TestNG-Framework-brightgreen) | Test Runner & Assertions |
+| ![Maven](https://img.shields.io/badge/Maven-Build%20%26%20Dependency-red?logo=apache-maven&logoColor=white) | Build & Dependency Management |
+| ![WebDriverManager](https://img.shields.io/badge/WebDriverManager-Driver%20Setup-lightgrey) | Auto Driver Setup |
+| ![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-blue?logo=githubactions&logoColor=white) | CI/CD Integration |
+| ![POM](https://img.shields.io/badge/Design-Page%20Object%20Model-purple) | Clean Code Structure |
+| ![ExtentReports](https://img.shields.io/badge/Reports-ExtentReports-orange) | HTML Reporting |
+
 
 ---
 
@@ -85,7 +86,7 @@ CI runs will be triggered on every push to `main` branch via GitHub Actions with
 ### ✅ Locally
 
 ```bash
-git clone https://github.com/Suyash0225/Astrojini.git
+git clone https://github.com/Dholeabhishek/Astrojini.git
 cd Astrojini
 mvn clean test
 ```
@@ -99,10 +100,13 @@ mvn clean test
 
 ## 👨‍💻 Author
 
-**Suyash Srivastava**
-QA Automation Engineer
-📧 Gmail =  suyashsrivastava49@gmail.com
-🔗 GitHub = https://github.com/Suyash0225
+**Abhishek Dhole** – QA Automation Engineer  
+
+[![Gmail](https://img.shields.io/badge/Email-dholeabhishek9%40gmail.com-red?logo=gmail&logoColor=white)](mailto:dholeabhishek9@gmail.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Dholeabhishek-black?logo=github)](https://github.com/Dholeabhishek)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Dhole-blue?logo=linkedin)](https://www.linkedin.com/in/abhishek-dhole-723001129/) 
 
 ---
 
