@@ -1,0 +1,13 @@
+# Force language detection
+*.java linguist-language=Java
+
+# Ignore non-Java files from language stats
+*.xml linguist-detectable=false
+*.json linguist-detectable=false
+*.feature linguist-detectable=false
+*.sh linguist-detectable=false
+*.properties linguist-detectable=false
+*.md linguist-detectable=false
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false

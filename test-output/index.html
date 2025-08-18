@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\ADMIN\git\Astrojini\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 4 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.EditProfileTest" class="method navigator-link" hash-for-method="setUpEditProfile(D:\\pic2.jpg, Kwik Klin, kwikclean0225@gmail.com, , noida sector 75, Male, )">setUpEditProfile(D:\\pic2.jpg, Kwik Klin, kwikclean0225@gmail.com, , noida sector 75, Male, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.EditProfileTest" class="method navigator-link" hash-for-method="setUpEditProfile(, , suyashsrivastava49@gmail.com, 89338711, Ck 65/284 , Female, 12/05/1998)">setUpEditProfile(, , suyashsrivastava49@gmail.com, 89338711, Ck 65/284 , Female, 12/05/1998)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.EditProfileTest" class="method navigator-link" hash-for-method="setUpEditProfile(, Kwik Klin, kwikclean0225@gmail.com, 9335441516, noida sector 75, Male, 07/12/1999)">setUpEditProfile(, Kwik Klin, kwikclean0225@gmail.com, 9335441516, noida sector 75, Male, 07/12/1999)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.EditProfileTest" class="method navigator-link" hash-for-method="setUpEditProfile(D:\\pic1.jpg, Suyash, suyashsrivastava49@gmail.com, 8933871103, Ck 65/284 , Female, 12/05/1998)">setUpEditProfile(D:\\pic1.jpg, Suyash, suyashsrivastava49@gmail.com, 8933871103, Ck 65/284 , Female, 12/05/1998)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="login(kwikclean0225@gmail.com, Suyash@0225, Customer login successfully !!)">login(kwikclean0225@gmail.com, Suyash@0225, Customer login successfully !!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="login(wronguser@gmail.com, wrongpass, Invalid Credentials !!)">login(wronguser@gmail.com, wrongpass, Invalid Credentials !!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationInvalidData(, 02/08/1998, 10:45PM, Femail, 9335441516, su@gmail.com, 12345, 12345, Varanasi, 221001)">registrationInvalidData(, 02/08/1998, 10:45PM, Femail, 9335441516, su@gmail.com, 12345, 12345, Varanasi, 221001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationInvalidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, s, 12345, 12345, Varanasi, 221001)">registrationInvalidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, s, 12345, 12345, Varanasi, 221001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationInvalidData(Shubham, 02/08/1998, , Femail, 9335441516, suyash@gmail.com, 12345, 12345, Varanasi, 221001)">registrationInvalidData(Shubham, 02/08/1998, , Femail, 9335441516, suyash@gmail.com, 12345, 12345, Varanasi, 221001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationInvalidData(Shubham, 02/08/1998, 10:45PM, , 9335441516, suyas@gmail.com, 12345, 12345, Varanasi, 221001)">registrationInvalidData(Shubham, 02/08/1998, 10:45PM, , 9335441516, suyas@gmail.com, 12345, 12345, Varanasi, 221001)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidData(Suyash, 25/05/2025, 10:45AM, Male, 9696856069, suyashsivastava@gmail.com, 12345, 12345, Varanasi, 22...)">registrationValidData(Suyash, 25/05/2025, 10:45AM, Male, 9696856069, suyashsivastava@gmail.com, 12345, 12345, Varanasi, 22...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, suyshsristava@gmai.com, 12345, 12345, Varanasi, 22...)">registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, suyshsristava@gmai.com, 12345, 12345, Varanasi, 22...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.RegistrationTest" class="method navigator-link" hash-for-method="registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, sashsrivastava@gmail.com, 12345, 12345, Varanasi, ...)">registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, sashsrivastava@gmail.com, 12345, 12345, Varanasi, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.EditProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUpEditProfile(D:\\pic2.jpg, Kwik Klin, kwikclean0225@gmail.com, , noida sector 75, Male, )">
+                  </a> <!-- setUpEditProfile(D:\\pic2.jpg, Kwik Klin, kwikclean0225@gmail.com, , noida sector 75, Male, ) -->
+                  <span class="method-name">setUpEditProfile</span>
+                  <span class="parameters">(D:\\pic2.jpg,Kwik Klin,kwikclean0225@gmail.com,,noida sector 75,Male,)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\\pic2.jpg
+  (Session info: chrome=138.0.7204.185)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0f536393491036c3de3fc101dbd78bb3, sendKeysToElement {value=[Ljava.lang.CharSequence;@44598ef7, id=f.9A92A44C231010C36B6D0DFFABEA0833.d.20ECBB7021E900E1F17C7FC87EC09DA8.e.105}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55588}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55588/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0f536393491036c3de3fc101dbd78bb3)] -&gt; id: photo]
+Session ID: 0f536393491036c3de3fc101dbd78bb3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
+	at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
+	at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUpEditProfile(, , suyashsrivastava49@gmail.com, 89338711, Ck 65/284 , Female, 12/05/1998)">
+                  </a> <!-- setUpEditProfile(, , suyashsrivastava49@gmail.com, 89338711, Ck 65/284 , Female, 12/05/1998) -->
+                  <span class="method-name">setUpEditProfile</span>
+                  <span class="parameters">(,,suyashsrivastava49@gmail.com,89338711,Ck 65/284 ,Female,12/05/1998)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: &apos;text&apos; is empty
+  (Session info: chrome=138.0.7204.185)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [085b5285bd44819eb2ebdef46cfeccf2, sendKeysToElement {value=[Ljava.lang.CharSequence;@6dca31eb, id=f.36A5C02BF645691AA0EE0E684230B141.d.2038D89B79D551AD16361AD0AE39885C.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55544}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55544/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (085b5285bd44819eb2ebdef46cfeccf2)] -&gt; id: photo]
+Session ID: 085b5285bd44819eb2ebdef46cfeccf2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
+	at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
+	at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUpEditProfile(, Kwik Klin, kwikclean0225@gmail.com, 9335441516, noida sector 75, Male, 07/12/1999)">
+                  </a> <!-- setUpEditProfile(, Kwik Klin, kwikclean0225@gmail.com, 9335441516, noida sector 75, Male, 07/12/1999) -->
+                  <span class="method-name">setUpEditProfile</span>
+                  <span class="parameters">(,Kwik Klin,kwikclean0225@gmail.com,9335441516,noida sector 75,Male,07/12/1999)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: &apos;text&apos; is empty
+  (Session info: chrome=138.0.7204.185)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e3790174f9e60a1eeb0389c8f5818a43, sendKeysToElement {value=[Ljava.lang.CharSequence;@3fbe503c, id=f.439444EE48B424B1EBBBA9B3A13FEB05.d.16185351E8EAAFBFF962EB65D1832BF8.e.101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55501/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e3790174f9e60a1eeb0389c8f5818a43)] -&gt; id: photo]
+Session ID: e3790174f9e60a1eeb0389c8f5818a43
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
+	at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
+	at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUpEditProfile(D:\\pic1.jpg, Suyash, suyashsrivastava49@gmail.com, 8933871103, Ck 65/284 , Female, 12/05/1998)">
+                  </a> <!-- setUpEditProfile(D:\\pic1.jpg, Suyash, suyashsrivastava49@gmail.com, 8933871103, Ck 65/284 , Female, 12/05/1998) -->
+                  <span class="method-name">setUpEditProfile</span>
+                  <span class="parameters">(D:\\pic1.jpg,Suyash,suyashsrivastava49@gmail.com,8933871103,Ck 65/284 ,Female,12/05/1998)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : D:\\pic1.jpg
+  (Session info: chrome=138.0.7204.185)
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0fb261619df18128e0387d4ec3379ae, sendKeysToElement {value=[Ljava.lang.CharSequence;@66a53104, id=f.6A252AB81616A290BBCE2777D9492894.d.151C5AA5AF43364788AB05787C5393B4.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.185, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55451/devtoo..., se:cdpVersion: 138.0.7204.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d0fb261619df18128e0387d4ec3379ae)] -&gt; id: photo]
+Session ID: d0fb261619df18128e0387d4ec3379ae
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at pages.EditProfilePage.uploadProfilePicture(EditProfilePage.java:42)
+	at pages.EditProfilePage.Editprofile(EditProfilePage.java:55)
+	at testCases.EditProfileTest.setUpEditProfile(EditProfileTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationInvalidData(, 02/08/1998, 10:45PM, Femail, 9335441516, su@gmail.com, 12345, 12345, Varanasi, 221001)">
+                  </a> <!-- registrationInvalidData(, 02/08/1998, 10:45PM, Femail, 9335441516, su@gmail.com, 12345, 12345, Varanasi, 221001) -->
+                  <span class="method-name">registrationInvalidData</span>
+                  <span class="parameters">(,02/08/1998,10:45PM,Femail,9335441516,su@gmail.com,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationInvalidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, s, 12345, 12345, Varanasi, 221001)">
+                  </a> <!-- registrationInvalidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, s, 12345, 12345, Varanasi, 221001) -->
+                  <span class="method-name">registrationInvalidData</span>
+                  <span class="parameters">(Shubham,02/08/1998,10:45PM,Femail,9335441516,s,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationInvalidData(Shubham, 02/08/1998, , Femail, 9335441516, suyash@gmail.com, 12345, 12345, Varanasi, 221001)">
+                  </a> <!-- registrationInvalidData(Shubham, 02/08/1998, , Femail, 9335441516, suyash@gmail.com, 12345, 12345, Varanasi, 221001) -->
+                  <span class="method-name">registrationInvalidData</span>
+                  <span class="parameters">(Shubham,02/08/1998,,Femail,9335441516,suyash@gmail.com,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationInvalidData(Shubham, 02/08/1998, 10:45PM, , 9335441516, suyas@gmail.com, 12345, 12345, Varanasi, 221001)">
+                  </a> <!-- registrationInvalidData(Shubham, 02/08/1998, 10:45PM, , 9335441516, suyas@gmail.com, 12345, 12345, Varanasi, 221001) -->
+                  <span class="method-name">registrationInvalidData</span>
+                  <span class="parameters">(Shubham,02/08/1998,10:45PM,,9335441516,suyas@gmail.com,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationValidData(Suyash, 25/05/2025, 10:45AM, Male, 9696856069, suyashsivastava@gmail.com, 12345, 12345, Varanasi, 22...)">
+                  </a> <!-- registrationValidData(Suyash, 25/05/2025, 10:45AM, Male, 9696856069, suyashsivastava@gmail.com, 12345, 12345, Varanasi, 22...) -->
+                  <span class="method-name">registrationValidData</span>
+                  <span class="parameters">(Suyash,25/05/2025,10:45AM,Male,9696856069,suyashsivastava@gmail.com,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, suyshsristava@gmai.com, 12345, 12345, Varanasi, 22...)">
+                  </a> <!-- registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, suyshsristava@gmai.com, 12345, 12345, Varanasi, 22...) -->
+                  <span class="method-name">registrationValidData</span>
+                  <span class="parameters">(Shubham,02/08/1998,10:45PM,Femail,9335441516,suyshsristava@gmai.com,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, sashsrivastava@gmail.com, 12345, 12345, Varanasi, ...)">
+                  </a> <!-- registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, sashsrivastava@gmail.com, 12345, 12345, Varanasi, ...) -->
+                  <span class="method-name">registrationValidData</span>
+                  <span class="parameters">(Shubham,02/08/1998,10:45PM,Femail,9335441516,sashsrivastava@gmail.com,12345,12345,Varanasi,221001)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(kwikclean0225@gmail.com, Suyash@0225, Customer login successfully !!)">
+                  </a> <!-- login(kwikclean0225@gmail.com, Suyash@0225, Customer login successfully !!) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(kwikclean0225@gmail.com,Suyash@0225,Customer login successfully !!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(wronguser@gmail.com, wrongpass, Invalid Credentials !!)">
+                  </a> <!-- login(wronguser@gmail.com, wrongpass, Invalid Credentials !!) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(wronguser@gmail.com,wrongpass,Invalid Credentials !!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ADMIN\git\Astrojini\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;base.Baseclass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RegistrationTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.RegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegistrationTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EditProfileTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.EditProfileTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EditProfileTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">RegistrationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EditProfileTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'testCases.LoginTest')
+data.setCell(0, 3, 6555);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registrationValidData')
+data.setCell(1, 2, 'testCases.RegistrationTest')
+data.setCell(1, 3, 4293);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registrationInvalidData')
+data.setCell(2, 2, 'testCases.RegistrationTest')
+data.setCell(2, 3, 4042);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registrationInvalidData')
+data.setCell(3, 2, 'testCases.RegistrationTest')
+data.setCell(3, 3, 3791);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'registrationInvalidData')
+data.setCell(4, 2, 'testCases.RegistrationTest')
+data.setCell(4, 3, 3737);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registrationValidData')
+data.setCell(5, 2, 'testCases.RegistrationTest')
+data.setCell(5, 3, 3667);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'login')
+data.setCell(6, 2, 'testCases.LoginTest')
+data.setCell(6, 3, 3450);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'registrationValidData')
+data.setCell(7, 2, 'testCases.RegistrationTest')
+data.setCell(7, 3, 3446);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registrationInvalidData')
+data.setCell(8, 2, 'testCases.RegistrationTest')
+data.setCell(8, 3, 2948);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'setUpEditProfile')
+data.setCell(9, 2, 'testCases.EditProfileTest')
+data.setCell(9, 3, 792);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'setUpEditProfile')
+data.setCell(10, 2, 'testCases.EditProfileTest')
+data.setCell(10, 3, 723);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'setUpEditProfile')
+data.setCell(11, 2, 'testCases.EditProfileTest')
+data.setCell(11, 3, 596);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'setUpEditProfile')
+data.setCell(12, 2, 'testCases.EditProfileTest')
+data.setCell(12, 3, 596);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">base.Baseclass</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.EditProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.LoginTest.login(java.lang.String,java.lang.String,java.lang.String))</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login(kwikclean0225@gmail.com, Suyash@0225, Customer login successfully !!)</span>
+                <span class="method-start">6451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=login status=SUCCESS method=LoginTest.login(java.lang.String,java.lang.String,java....)</span>
+                <span class="method-start">13009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.LoginTest.login(java.lang.String,java.lang.String,java.lang.String))</span>
+                <span class="method-start">13305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login(wronguser@gmail.com, wrongpass, Invalid Credentials !!)</span>
+                <span class="method-start">14847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=login status=SUCCESS method=LoginTest.login(java.lang.String,java.lang.String,java....)</span>
+                <span class="method-start">18299 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,jav...)</span>
+                <span class="method-start">18646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationInvalidData(, 02/08/1998, 10:45PM, Femail, 9335441516, su@gmail.com, 12345, 12345, Varanasi, 221001)</span>
+                <span class="method-start">20291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidD...)</span>
+                <span class="method-start">24083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,jav...)</span>
+                <span class="method-start">24326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationInvalidData(Shubham, 02/08/1998, 10:45PM, , 9335441516, suyas@gmail.com, 12345, 12345, Varanasi, 221001)</span>
+                <span class="method-start">25842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidD...)</span>
+                <span class="method-start">29885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,jav...)</span>
+                <span class="method-start">30108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationInvalidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, s, 12345, 12345, Varanasi, 221001)</span>
+                <span class="method-start">31639 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidD...)</span>
+                <span class="method-start">34589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationInvalidData(java.lang.String,java.lang.String,jav...)</span>
+                <span class="method-start">34838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationInvalidData(Shubham, 02/08/1998, , Femail, 9335441516, suyash@gmail.com, 12345, 12345, Varanasi, 221001)</span>
+                <span class="method-start">36326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationInvalidData status=SUCCESS method=RegistrationTest.registrationInvalidD...)</span>
+                <span class="method-start">40064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java....)</span>
+                <span class="method-start">40301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationValidData(Suyash, 25/05/2025, 10:45AM, Male, 9696856069, suyashsivastava@gmail.com, 12345, 12345, Varanasi, 22...)</span>
+                <span class="method-start">41774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationValidData status=SUCCESS method=RegistrationTest.registrationValidData(...)</span>
+                <span class="method-start">45221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java....)</span>
+                <span class="method-start">45427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, suyshsristava@gmai.com, 12345, 12345, Varanasi, 22...)</span>
+                <span class="method-start">46967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationValidData status=SUCCESS method=RegistrationTest.registrationValidData(...)</span>
+                <span class="method-start">51262 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.RegistrationTest.registrationValidData(java.lang.String,java.lang.String,java....)</span>
+                <span class="method-start">51471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationValidData(Shubham, 02/08/1998, 10:45PM, Femail, 9335441516, sashsrivastava@gmail.com, 12345, 12345, Varanasi, ...)</span>
+                <span class="method-start">52959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=registrationValidData status=SUCCESS method=RegistrationTest.registrationValidData(...)</span>
+                <span class="method-start">56627 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.EditProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">56869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">gotoLoginPage</span>
+                <span class="method-start">58346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpEditProfile(D:\\pic1.jpg, Suyash, suyashsrivastava49@gmail.com, 8933871103, Ck 65/284 , Female, 12/05/1998)</span>
+                <span class="method-start">63879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.S...)</span>
+                <span class="method-start">64802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">65217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">gotoLoginPage</span>
+                <span class="method-start">66783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpEditProfile(, Kwik Klin, kwikclean0225@gmail.com, 9335441516, noida sector 75, Male, 07/12/1999)</span>
+                <span class="method-start">71842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.S...)</span>
+                <span class="method-start">72439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">72893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">gotoLoginPage</span>
+                <span class="method-start">74451 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpEditProfile(, , suyashsrivastava49@gmail.com, 89338711, Ck 65/284 , Female, 12/05/1998)</span>
+                <span class="method-start">78833 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.S...)</span>
+                <span class="method-start">79431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void testCases.EditProfileTest.setUpEditProfile(java.lang.String,java.lang.String,java.lang.S...)</span>
+                <span class="method-start">79825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">gotoLoginPage</span>
+                <span class="method-start">81513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpEditProfile(D:\\pic2.jpg, Kwik Klin, kwikclean0225@gmail.com, , noida sector 75, Male, )</span>
+                <span class="method-start">85875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=setUpEditProfile status=FAILURE method=EditProfileTest.setUpEditProfile(java.lang.S...)</span>
+                <span class="method-start">86602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownReport</span>
+                <span class="method-start">87073 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

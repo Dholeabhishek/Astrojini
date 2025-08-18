@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EditProfileTest(failed)">
+    <classes>
+      <class name="testCases.EditProfileTest">
+        <methods>
+          <include name="gotoLoginPage"/>
+          <include name="tearDownReport"/>
+          <include name="setup"/>
+          <include name="setUpEditProfile" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+        </methods>
+      </class> <!-- testCases.EditProfileTest -->
+    </classes>
+  </test> <!-- EditProfileTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
