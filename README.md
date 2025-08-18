@@ -87,7 +87,11 @@ CI runs will be triggered on every push to `main` branch via GitHub Actions with
 
 ```bash
 git clone https://github.com/Dholeabhishek/Astrojini.git
+```
+```bash
 cd Astrojini
+```
+```bash
 mvn clean test
 ```
 
