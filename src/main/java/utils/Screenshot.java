@@ -20,7 +20,15 @@ public class Screenshot {
 	        String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
 	        String filename = testName + "_" + timestamp + ".png";
-	        File destination = new File("C:\\Users\\ADMIN\\git\\Astrojini\\src\\test\\java\\screenshots"+ filename);
+	        
+	        // Use cross-platform path
+	        String screenshotDir = Paths.get(System.getProperty("user.dir"), "target", "screenshots").toString();
+	        File dir = new File(screenshotDir);
+	        if (!dir.exists()) {
+	            dir.mkdirs();
+	        }
+	        
+	        File destination = new File(screenshotDir, filename);
 			FileUtils.copyFile(source, destination);
 			return destination.getAbsolutePath();
 	    }
