@@ -39,14 +39,24 @@ public class EditProfileTest extends Baseclass {
 	}
 	
 	@DataProvider(name="editData")
-	public Object[][] editData(){
+public Object[][] editData() {
+
+    String pic1 = System.getProperty("user.dir")
+            + "/src/test/resources/pic1.png";
+
+    String pic2 = System.getProperty("user.dir")
+            + "/src/test/resources/pic2.png";
+
+    return new Object[][] {
+        {pic1,"Suyash","suyashsrivastava49@gmail.com","8933871103","Ck 65/284 ","Female","12/05/1998"},
+        {"","Kwik Klin","kwikclean0225@gmail.com","9335441516","noida sector 75","Male","07/12/1999"},
+        {"","","suyashsrivastava49@gmail.com","89338711","Ck 65/284 ","Female","12/05/1998"},
+        {pic2,"Kwik Klin","kwikclean0225@gmail.com","","noida sector 75","Male",""}
+    };
+}
+
+
 		
-		return new Object[][] {
-			{"D:\\\\pic1.jpg","Suyash","suyashsrivastava49@gmail.com","8933871103","Ck 65/284 ","Female","12/05/1998"},
-			{"","Kwik Klin","kwikclean0225@gmail.com","9335441516","noida sector 75","Male","07/12/1999"},
-			{"","","suyashsrivastava49@gmail.com","89338711","Ck 65/284 ","Female","12/05/1998"},
-			{"D:\\\\pic2.jpg","Kwik Klin","kwikclean0225@gmail.com","","noida sector 75","Male",""},
-			};
 		
 	}
 	}
