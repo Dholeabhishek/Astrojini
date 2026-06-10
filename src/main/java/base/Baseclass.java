@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 import java.util.Properties;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -43,7 +44,12 @@ public class Baseclass {
         String browser = prop.getProperty("browser");
 
         if (browser.equalsIgnoreCase("chrome")) {
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--disable-gpu");
+            driver = new ChromeDriver(options);
             driver.manage().window().setSize(new Dimension(1440, 900));
         } else if (browser.equalsIgnoreCase("edge")) {
             driver = new EdgeDriver();
