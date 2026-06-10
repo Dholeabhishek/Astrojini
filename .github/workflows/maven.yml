@@ -24,11 +24,19 @@ jobs:
           java-version: 11
           cache: maven
 
+      - name: Install Chrome and ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          echo "CHROMEDRIVER_PATH=/usr/bin/chromedriver" >> $GITHUB_ENV
+
       - name: Verify Maven Installation
         run: mvn -version
 
       - name: Execute Tests
         run: mvn clean test -PRegression
+        env:
+          CHROME_HEADLESS: true
 
       - name: Upload Reports
         if: always()
