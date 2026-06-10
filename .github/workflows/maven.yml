@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main
-
   pull_request:
     branches:
       - main
-
   workflow_dispatch:
 
 jobs:
@@ -19,20 +17,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Java 17
+      - name: Setup Java 8
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
+          java-version: 8
           cache: maven
 
       - name: Verify Maven Installation
         run: mvn -version
 
-      - name: Install Dependencies & Execute Tests
+      - name: Execute Tests
         run: mvn clean test
 
-      - name: Upload Test Reports
+      - name: Upload Reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
